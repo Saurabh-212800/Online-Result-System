@@ -1,0 +1,151 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  background-image: url('mmcoe.jpg');
+}
+
+body{
+  font: 0.9em "Roboto", sans-serif;
+}
+
+.form{
+    position: relative;
+    width: 40%;
+    background: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 100px auto;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.form p{
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+}
+.form input{
+    position: relative;
+    border-radius: 5px;
+    width:60%;
+    background-color: #e6e6e6;
+    border: none;
+    padding: 5px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form select{
+    position:relative;
+    border-radius: 5px;
+    width:60%;
+    background-color: #e6e6e6;
+    border: none;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button{
+    background-color: lightgreen;
+    border-radius: 5px;
+    width:30%;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    cursor: pointer;
+  transition-property: background;
+}  
+
+.form button:hover{
+  background: mediumseagreen; 
+}
+
+.message{
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.message a{
+  color: blue;
+}
+
+.submit{
+background-color: skyblue;
+    border-radius: 5px;
+    width:30%;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    cursor: pointer;
+  transition-property: background;
+}
+
+.submit:hover{
+  background: #0B87A6;
+}
+
+.back{
+  width: 10%;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  float: right;
+}
+
+.back:hover{
+  background: #0B87A6;
+}
+
+table , th, td{
+    text-align: center;
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 5px;
+}      
+
+.result{
+    width: 60%;
+    background: white;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+ 
+.print{
+  position: relative;
+  width: 10% ; 
+  cursor: pointer;
+  background-color: skyblue;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.print:hover{
+  background-color: #0B87A6;
+}
+
+
+@viewport{
+  zoom:1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport{
+  zoom:1.0;
+  width: extend-to-zoom;
+}

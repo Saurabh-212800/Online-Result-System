@@ -1,0 +1,278 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header{
+  z-index: 1;
+  position: fixed;
+  background: #22242A;
+  padding: 20px;
+  width: calc(100% - 0%);
+  top: 0;
+  height: 30px;
+}
+
+.left h3{
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  padding-left: 100px 
+}
+
+.left span{
+  color: #19B3D3;
+}
+
+.logout{
+  padding: 5px;
+  background: #19B3D3;
+  text-decoration: none;
+  float: right;
+  margin-top: -30px;
+  margin-right: 40px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  transition-property: background;
+}
+
+.logout:hover{
+  background: #0B87A6;
+}
+
+.sidebar{
+  z-index: 1;
+  top: 0;
+  background: #2f323a;
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: calc(100% - 9%);
+  transition: 0.5s;
+  transition-property: left;
+  overflow-y: auto;
+}
+
+.sidebar a{
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.sidebar a:hover{
+  background: #19B3D3;
+}
+
+.sidebar i{
+  padding-right: 10px;
+}
+
+label #sidebar_btn{
+  z-index: 1;
+  color: #fff;
+  position: fixed;
+  cursor: pointer;
+  left: 50px;
+  font-size: 25px;
+  margin: 2.5px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+
+label #sidebar_btn:hover{
+  color: #19B3D3;
+}
+
+#check:checked ~ .sidebar{
+  left: -180px;
+}
+
+#check:checked ~ .sidebar a span{
+  display: none;
+}
+
+#check:checked ~ .sidebar a{
+  font-size: 20px;
+  margin-left: 165px;
+  width: 100%;
+}
+
+#check:checked ~ .content{
+  margin-left: 60px;
+}
+
+#check:checked ~ .sidebar .profile_info{
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+.content .card p{
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+table{
+    width: 100%;
+    column-gap: 40px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+  text-align: center;
+    column-gap: 40px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+#allrecords{
+  width: (100% - 450px);
+  padding: 60px;
+  margin-left: 250px;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: 0.5s;
+}
+
+.Settings{
+  padding: 50px 30px;
+  margin: 20% auto; 
+  font-weight: bold; 
+  font-size: 30px; 
+  border: none; 
+  border-radius: 15px;
+}
+
+.password{
+  position: relative;
+   padding: 70px;
+   font-size: 16px;
+}
+
+.password div{
+  position: relative;
+    padding: 10px;
+}
+
+.password input{
+  position: relative;
+    font-size: 15px;
+    width: 40%;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    background:  #e6e6e6;
+}
+
+.student{
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+}
+
+.student div{
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}
+
+.student input{
+  position: relative;
+  font-size: 15px;
+  width: 30%;
+  padding: 5px;
+  border: 0px;
+  border-radius: 5px;
+  background: #e6e6e6;
+}
+
+.student select{
+   position: relative;
+    border-radius: 5px;
+    width: 32%;
+    background-color: #e6e6e6;
+    border: none;
+    padding: 7px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.button1{
+  background-color: #ff4d4d;
+  padding: 8px;
+  margin: 10%;
+  border: 1px solid black; 
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button1:hover{
+  background: #cc0000;
+}
+
+.button2{
+  background: skyblue;
+  padding: 8px;
+  margin: 10%;
+  border: 1px solid black; 
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button2:hover{
+  background: #51b8e1;
+}
+
+.search{
+  font-size: 15px;
+  width: 30%;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: #e6e6e6;
+}
+
+.search1{
+  background: skyblue;
+  padding: 6px;
+  border: 1px solid black; 
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search1:hover{
+   background: #51b8e1;
+}
+
+@viewport{
+  zoom:1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport{
+  zoom:1.0;
+  width: extend-to-zoom;
+}
